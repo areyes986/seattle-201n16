@@ -34,7 +34,7 @@ console.log(makeWord(firstName, lastName));
 function addNumbers(num1, num2){
     var sum = num1 + num2;
     var wordString = 'The sum of ' + num1 + ' and ' + num2 + ' is ' + sum;
-    var newArray = [wordString,sum];
+    var newArray = wordString,sum;
     return newArray;
 }
 
